@@ -1,0 +1,12 @@
+{
+  "name": "cal",
+  "description": "Query macOS Calendar from Claude Code. Get today's, tomorrow's, this week's, or this month's events.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Hamed Mohammadpour",
+    "url": "https://github.com/hamedmp"
+  },
+  "repository": "https://github.com/hamedmp/idag",
+  "homepage": "https://github.com/hamedmp/idag",
+  "license": "MIT"
+}
