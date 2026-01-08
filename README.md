@@ -1,33 +1,35 @@
-# macos-cal
+# idag
 
-A modern CLI tool to query macOS Calendar from the terminal. Uses EventKit directly - no dependencies, no hacks.
+A modern CLI to query macOS Calendar from the terminal. Uses EventKit directly - no dependencies, no hacks.
+
+*"idag" is Swedish for "today"*
 
 ## Installation
+
+### Homebrew
+
+```bash
+brew install hamedmp/tap/idag
+```
 
 ### From source
 
 ```bash
-git clone https://github.com/hamedmp/macos-cal.git
-cd macos-cal
+git clone https://github.com/hamedmp/idag.git
+cd idag
 swift build -c release
-cp .build/release/cal /usr/local/bin/
-```
-
-### With Homebrew (coming soon)
-
-```bash
-brew install macos-cal
+sudo cp .build/release/idag /usr/local/bin/
 ```
 
 ## Usage
 
 ```bash
-cal                 # Today's events
-cal today           # Today's events
-cal tomorrow        # Tomorrow's events
-cal week            # Next 7 days
-cal month           # Next 30 days
-cal week --json     # Output as JSON
+idag                 # Today's events
+idag today           # Today's events
+idag tomorrow        # Tomorrow's events
+idag week            # Next 7 days
+idag month           # Next 30 days
+idag week --json     # Output as JSON
 ```
 
 ## Output
@@ -61,7 +63,7 @@ Use `--json` for machine-readable output:
 
 On first run, macOS will prompt for calendar access. You can also grant it manually:
 
-**System Settings > Privacy & Security > Calendars** - enable for Terminal
+**System Settings > Privacy & Security > Calendars**
 
 ## Why?
 

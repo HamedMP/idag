@@ -3,16 +3,16 @@
 import PackageDescription
 
 let package = Package(
-    name: "macos-cal",
+    name: "idag",
     platforms: [
         .macOS(.v13)
     ],
     products: [
-        .executable(name: "cal", targets: ["macos-cal"])
+        .executable(name: "idag", targets: ["idag"])
     ],
     targets: [
         .executableTarget(
-            name: "macos-cal"
+            name: "idag"
         )
     ]
 )

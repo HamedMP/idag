@@ -114,10 +114,12 @@ func printEventsAsJson(_ events: [EKEvent]) {
 
 func printUsage() {
     print("""
-    macos-cal - Query macOS Calendar from the command line
+    idag - Query macOS Calendar from the command line
+
+    "idag" is Swedish for "today"
 
     USAGE:
-        cal [RANGE] [OPTIONS]
+        idag [RANGE] [OPTIONS]
 
     RANGE:
         today       Today's events (default)
@@ -130,9 +132,9 @@ func printUsage() {
         --help      Show this help
 
     EXAMPLES:
-        cal                 # Today's events
-        cal tomorrow        # Tomorrow's events
-        cal week --json     # This week as JSON
+        idag                 # Today's events
+        idag tomorrow        # Tomorrow's events
+        idag week --json     # This week as JSON
     """)
 }
 
