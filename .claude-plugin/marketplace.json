@@ -1,0 +1,21 @@
+{
+  "name": "idag",
+  "owner": {
+    "name": "Hamed Mohammadpour",
+    "email": "hamed@finna.ai"
+  },
+  "metadata": {
+    "description": "macOS Calendar CLI and Claude Code integration",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "cal",
+      "source": ".",
+      "description": "Query macOS Calendar from Claude Code with /cal command",
+      "version": "1.0.0",
+      "category": "productivity",
+      "tags": ["calendar", "macos", "productivity"]
+    }
+  ]
+}
