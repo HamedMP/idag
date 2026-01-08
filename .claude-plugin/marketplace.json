@@ -11,7 +11,7 @@
   "plugins": [
     {
       "name": "cal",
-      "source": ".",
+      "source": "./",
       "description": "Query macOS Calendar from Claude Code with /cal command",
       "version": "1.0.0",
       "category": "productivity",
